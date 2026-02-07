@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "patterns": ["order", "track", "delivery"],
+      "responses": [
+        "You can track your order using the order number on our website."
+      ]
+    },
+    {
+      "patterns": ["return", "refund", "exchange"],
+      "responses": [
+        "Returns and exchanges are allowed within 14 days of purchase."
+      ]
+    },
+    {
+      "patterns": ["size", "fit", "measurement"],
+      "responses": [
+        "Please check our size guide to find the perfect fit."
+      ]
+    },
+    
+    {
+      "patterns": ["payment", "pay", "method"],
+      "responses": [
+        "We accept Credit Card, PayPal, and bank transfer."
+      ]
+    }
+  ]
+}
